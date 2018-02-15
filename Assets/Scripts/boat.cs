@@ -27,15 +27,19 @@ public class boat : MonoBehaviour {
 		float h = Input.GetAxis ("Horizontal");
 		float v = Input.GetAxis ("Vertical");
 
-		propellers.transform.eulerAngles = new Vector3 (0f, engine.transform.eulerAngles.y, propellers.transform.eulerAngles.z + v * prop_speed);
-		engine.transform.eulerAngles = new Vector3 (0f, boat_obj.transform.eulerAngles.y - h * 45f, boat_obj.transform.eulerAngles.z);
-
+		propellers.transform.eulerAngles = new Vector3 (0.0f, engine.transform.eulerAngles.y, propellers.transform.eulerAngles.z + v * prop_speed);
+		engine.transform.eulerAngles = new Vector3 (0.0f, boat_obj.transform.eulerAngles.y - h * 45.0f, boat_obj.transform.eulerAngles.z);
+		if (v >= 0) {
+			boat_obj.transform.eulerAngles = new Vector3 (v * 10.0f, boat_obj.transform.eulerAngles.y, 0.0f);
+		}
 		//boat_obj.transform.eulerAngles = new Vector3 (0f, boat_obj.transform.eulerAngles.y, 0f);
 		rbody.AddTorque (0f, h * v * turnSpeed * Time.deltaTime, 0f);
 
 
 
 		rbody.AddForce (transform.forward * accSpeed * v * Time.deltaTime);
+
+
 
 	}
 }

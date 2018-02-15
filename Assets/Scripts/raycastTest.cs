@@ -45,14 +45,14 @@ public class raycastTest : MonoBehaviour {
 				is_open = false;
 			}
 
-			if (item.name == "hatch" && is_open == false) {
+			else if (item.name == "hatch" && is_open == false) {
 				if (Input.GetMouseButtonDown (1)) {
 					anim.Play ("open_hatch");
 				}
 				is_open = true;
 			}
 
-			if (item.name == "engine") {
+			else if (item.name == "engine") {
 				if (Input.GetMouseButton (1)) {
 					
 				}
