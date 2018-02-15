@@ -7,15 +7,14 @@ public class raycastTest : MonoBehaviour {
 	GameObject item;
 	float item_size;
 	bool is_open;
-
-	public GameObject hatch;
+	bool bag_open;
 
 	private Animator anim;
 
 	// Use this for initialization
 	void Start () {
-		anim = hatch.GetComponent<Animator> ();
 		is_open = false;
+		bag_open = false;
 	}
 
 	GameObject GetItem (float range){
@@ -37,26 +36,36 @@ public class raycastTest : MonoBehaviour {
 		item = GetItem (5);
 
 		if (item != null) {
-			
 			if (item.name == "hatch" && is_open == true) {
 				if (Input.GetMouseButtonDown (0)) {
+					anim = item.GetComponent<Animator> ();
 					anim.Play ("close_hatch");
-				}
-				is_open = false;
+					is_open = false;
+				} 
 			}
-
-			else if (item.name == "hatch" && is_open == false) {
+			if (item.name == "hatch" && is_open == false) {
 				if (Input.GetMouseButtonDown (1)) {
+					anim = item.GetComponent<Animator> ();
 					anim.Play ("open_hatch");
-				}
-				is_open = true;
+					is_open = true;
+				} 
+			}
+			if (item.name == "hatch1" || item.name == "hatch2" ||item.name == "hatch3" && bag_open == true) {
+				if (Input.GetMouseButtonDown (0)) {
+					anim = item.GetComponent<Animator> ();
+					anim.Play ("close_bag");
+					bag_open = false;
+				} 
+			}
+			if (item.name == "hatch1" || item.name == "hatch2" ||item.name == "hatch3"  && bag_open == false) {
+				if (Input.GetMouseButtonDown (1)) {
+					anim = item.GetComponent<Animator> ();
+					anim.Play ("open_bag");
+					bag_open = true;
+				} 
 			}
 
-			else if (item.name == "engine") {
-				if (Input.GetMouseButton (1)) {
-					
-				}
-			}
+
 		}
 	}
 }
