@@ -28,6 +28,33 @@ ModelImporter:
     100040: bag2
     100042: bag3
     100044: bags
+    100046: vhf:pCube1
+    100048: vhf:pCube10
+    100050: vhf:pCube2
+    100052: vhf:pCube3
+    100054: vhf:pCube4
+    100056: vhf:pCube5
+    100058: vhf:pCube6
+    100060: vhf:pCube7
+    100062: vhf:pCube8
+    100064: vhf:pCube9
+    100066: vhf:pCylinder1
+    100068: vhf:pCylinder4
+    100070: vhf:pCylinder5
+    100072: vhf:pCylinder6
+    100074: vhf:transform1
+    100076: vhf:transform10
+    100078: vhf:transform11
+    100080: vhf:transform12
+    100082: vhf:transform13
+    100084: vhf:transform2
+    100086: vhf:transform3
+    100088: vhf:transform4
+    100090: vhf:transform5
+    100092: vhf:transform6
+    100094: vhf:transform7
+    100096: vhf:transform8
+    100098: vhf:transform9
     400000: engine
     400002: hull
     400004: //RootNode
@@ -51,6 +78,33 @@ ModelImporter:
     400040: bag2
     400042: bag3
     400044: bags
+    400046: vhf:pCube1
+    400048: vhf:pCube10
+    400050: vhf:pCube2
+    400052: vhf:pCube3
+    400054: vhf:pCube4
+    400056: vhf:pCube5
+    400058: vhf:pCube6
+    400060: vhf:pCube7
+    400062: vhf:pCube8
+    400064: vhf:pCube9
+    400066: vhf:pCylinder1
+    400068: vhf:pCylinder4
+    400070: vhf:pCylinder5
+    400072: vhf:pCylinder6
+    400074: vhf:transform1
+    400076: vhf:transform10
+    400078: vhf:transform11
+    400080: vhf:transform12
+    400082: vhf:transform13
+    400084: vhf:transform2
+    400086: vhf:transform3
+    400088: vhf:transform4
+    400090: vhf:transform5
+    400092: vhf:transform6
+    400094: vhf:transform7
+    400096: vhf:transform8
+    400098: vhf:transform9
     2300000: engine
     2300002: hull
     2300004: pod
@@ -68,6 +122,7 @@ ModelImporter:
     2300028: bag1
     2300030: bag2
     2300032: bag3
+    2300034: vhf:pCube10
     3300000: engine
     3300002: hull
     3300004: pod
@@ -85,6 +140,7 @@ ModelImporter:
     3300028: bag1
     3300030: bag2
     3300032: bag3
+    3300034: vhf:pCube10
     4300000: sponsons
     4300002: pod
     4300004: engine
@@ -102,6 +158,7 @@ ModelImporter:
     4300028: bag1
     4300030: bag2
     4300032: bag3
+    4300034: vhf:pCube10
     9500000: //RootNode
   externalObjects:
   - first:
