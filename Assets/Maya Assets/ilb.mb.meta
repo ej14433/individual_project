@@ -55,6 +55,47 @@ ModelImporter:
     100094: vhf:transform7
     100096: vhf:transform8
     100098: vhf:transform9
+    100100: pCube4
+    100102: pCube5
+    100104: pCube6
+    100106: pCube7
+    100108: pCube8
+    100110: pCube9
+    100112: engine2:engine
+    100114: engine2:pCube1
+    100116: engine2:pCube2
+    100118: engine2:pCube3
+    100120: engine2:polySurface2
+    100122: engine2:propeller
+    100124: engine2:transform5
+    100126: hatch 1
+    100128: hatch4
+    100130: pCube10
+    100132: pCube11
+    100134: pCube12
+    100136: transform3
+    100138: transform4
+    100140: transform5
+    100142: fuel_tank:pCylinder1
+    100144: fuel_tank:pCylinder4
+    100146: fuel_tank:polySurface1
+    100148: fuel_tank:polySurface2
+    100150: group1
+    100152: group2
+    100154: hatch5
+    100156: pCube13
+    100158: pCube14
+    100160: pCube15
+    100162: pCylinder1
+    100164: pCylinder4
+    100166: pCylinder5
+    100168: pCylinder6
+    100170: polySurface1
+    100172: polySurface2
+    100174: polySurface3
+    100176: polySurface4
+    100178: rope
+    100180: rope1
     400000: engine
     400002: hull
     400004: //RootNode
@@ -105,6 +146,47 @@ ModelImporter:
     400094: vhf:transform7
     400096: vhf:transform8
     400098: vhf:transform9
+    400100: pCube4
+    400102: pCube5
+    400104: pCube6
+    400106: pCube7
+    400108: pCube8
+    400110: pCube9
+    400112: engine2:engine
+    400114: engine2:pCube1
+    400116: engine2:pCube2
+    400118: engine2:pCube3
+    400120: engine2:polySurface2
+    400122: engine2:propeller
+    400124: engine2:transform5
+    400126: hatch 1
+    400128: hatch4
+    400130: pCube10
+    400132: pCube11
+    400134: pCube12
+    400136: transform3
+    400138: transform4
+    400140: transform5
+    400142: fuel_tank:pCylinder1
+    400144: fuel_tank:pCylinder4
+    400146: fuel_tank:polySurface1
+    400148: fuel_tank:polySurface2
+    400150: group1
+    400152: group2
+    400154: hatch5
+    400156: pCube13
+    400158: pCube14
+    400160: pCube15
+    400162: pCylinder1
+    400164: pCylinder4
+    400166: pCylinder5
+    400168: pCylinder6
+    400170: polySurface1
+    400172: polySurface2
+    400174: polySurface3
+    400176: polySurface4
+    400178: rope
+    400180: rope1
     2300000: engine
     2300002: hull
     2300004: pod
@@ -123,6 +205,34 @@ ModelImporter:
     2300030: bag2
     2300032: bag3
     2300034: vhf:pCube10
+    2300036: pCube5
+    2300038: pCube6
+    2300040: pCube7
+    2300042: pCube8
+    2300044: pCube9
+    2300046: engine2:pCube1
+    2300048: engine2:pCube2
+    2300050: engine2:pCube3
+    2300052: engine2:polySurface2
+    2300054: engine2:propeller
+    2300056: pCube12
+    2300058: fuel_tank:pCylinder1
+    2300060: fuel_tank:polySurface1
+    2300062: fuel_tank:polySurface2
+    2300064: hatch4
+    2300066: hatch5
+    2300068: pCube13
+    2300070: pCube14
+    2300072: pCube15
+    2300074: pCylinder1
+    2300076: pCylinder5
+    2300078: pCylinder6
+    2300080: polySurface1
+    2300082: polySurface2
+    2300084: polySurface3
+    2300086: polySurface4
+    2300088: rope
+    2300090: rope1
     3300000: engine
     3300002: hull
     3300004: pod
@@ -141,6 +251,34 @@ ModelImporter:
     3300030: bag2
     3300032: bag3
     3300034: vhf:pCube10
+    3300036: pCube5
+    3300038: pCube6
+    3300040: pCube7
+    3300042: pCube8
+    3300044: pCube9
+    3300046: engine2:pCube1
+    3300048: engine2:pCube2
+    3300050: engine2:pCube3
+    3300052: engine2:polySurface2
+    3300054: engine2:propeller
+    3300056: pCube12
+    3300058: fuel_tank:pCylinder1
+    3300060: fuel_tank:polySurface1
+    3300062: fuel_tank:polySurface2
+    3300064: hatch4
+    3300066: hatch5
+    3300068: pCube13
+    3300070: pCube14
+    3300072: pCube15
+    3300074: pCylinder1
+    3300076: pCylinder5
+    3300078: pCylinder6
+    3300080: polySurface1
+    3300082: polySurface2
+    3300084: polySurface3
+    3300086: polySurface4
+    3300088: rope
+    3300090: rope1
     4300000: sponsons
     4300002: pod
     4300004: engine
@@ -159,8 +297,66 @@ ModelImporter:
     4300030: bag2
     4300032: bag3
     4300034: vhf:pCube10
+    4300036: pCube5
+    4300038: pCube6
+    4300040: pCube7
+    4300042: pCube8
+    4300044: pCube9
+    4300046: pCube12
+    4300048: engine2:polySurface2
+    4300050: engine2:propeller
+    4300052: engine2:pCube1
+    4300054: engine2:pCube2
+    4300056: engine2:pCube3
+    4300058: rope1
+    4300060: rope
+    4300062: pCube15
+    4300064: pCube14
+    4300066: pCylinder6
+    4300068: pCylinder5
+    4300070: pCylinder1
+    4300072: polySurface1
+    4300074: polySurface2
+    4300076: fuel_tank:pCylinder1
+    4300078: fuel_tank:polySurface1
+    4300080: fuel_tank:polySurface2
+    4300082: pCube13
+    4300084: hatch4
+    4300086: hatch5
+    4300088: polySurface3
+    4300090: polySurface4
     9500000: //RootNode
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface9
+    second: {fileID: 2100000, guid: ec44532de57634a19a5f132617cbcc89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine2_black_metal1
+    second: {fileID: 2100000, guid: 18db524b1e74c4534a64c7ed93356413, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine2_engine1
+    second: {fileID: 2100000, guid: 70086822806174e30a9b5a145447a747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine2_lambert5
+    second: {fileID: 2100000, guid: aa092495fdf484ad8877496878dd2994, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuel_tank_fuel_lid
+    second: {fileID: 2100000, guid: 07bbaf4f940024ec18c1f5cfdee7a99c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuel_tank_fuel_metal
+    second: {fileID: 2100000, guid: 38663891b9a194f6cac0d8ced28d9b98, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -186,6 +382,26 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: lambert5
     second: {fileID: 2100000, guid: e2367a1e3cd9e4efdbf842e9e07f327d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange
+    second: {fileID: 2100000, guid: a62de65c28cf942a5bea7eac8eb117d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rubber
+    second: {fileID: 2100000, guid: 2df0a0d701a80430b99582c126e6d9ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stern
+    second: {fileID: 2100000, guid: 3b93012c5b41c4baf9e71002de60d869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_poles
+    second: {fileID: 2100000, guid: 463bf630ee47740029974f79214078e7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
