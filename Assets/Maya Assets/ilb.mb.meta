@@ -96,6 +96,10 @@ ModelImporter:
     100176: polySurface4
     100178: rope
     100180: rope1
+    100182: ilb
+    100184: pCube16
+    100186: pCube17
+    100188: pCube18
     400000: engine
     400002: hull
     400004: //RootNode
@@ -187,6 +191,10 @@ ModelImporter:
     400176: polySurface4
     400178: rope
     400180: rope1
+    400182: ilb
+    400184: pCube16
+    400186: pCube17
+    400188: pCube18
     2300000: engine
     2300002: hull
     2300004: pod
@@ -233,6 +241,9 @@ ModelImporter:
     2300086: polySurface4
     2300088: rope
     2300090: rope1
+    2300092: pCube16
+    2300094: pCube17
+    2300096: pCube18
     3300000: engine
     3300002: hull
     3300004: pod
@@ -279,6 +290,9 @@ ModelImporter:
     3300086: polySurface4
     3300088: rope
     3300090: rope1
+    3300092: pCube16
+    3300094: pCube17
+    3300096: pCube18
     4300000: sponsons
     4300002: pod
     4300004: engine
@@ -325,6 +339,9 @@ ModelImporter:
     4300086: hatch5
     4300088: polySurface3
     4300090: polySurface4
+    4300092: pCube16
+    4300094: pCube17
+    4300096: pCube18
     9500000: //RootNode
   externalObjects:
   - first:
@@ -332,6 +349,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: aiStandardSurface9
     second: {fileID: 2100000, guid: ec44532de57634a19a5f132617cbcc89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_plastic_phonge
+    second: {fileID: 2100000, guid: a2a0a099bafb14b74868af3ecbf775ab, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -347,6 +369,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: engine2_lambert5
     second: {fileID: 2100000, guid: aa092495fdf484ad8877496878dd2994, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine_black_phonge
+    second: {fileID: 2100000, guid: 48427d61afdeb4573a3ec2ed01eae0bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine_lid_phong
+    second: {fileID: 2100000, guid: 58a8d9ff38a7c4783a44694a832f3921, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -385,8 +417,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: leather_blinn
+    second: {fileID: 2100000, guid: 3f9b97090b1f54735b9501c7f7306fed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: orange
     second: {fileID: 2100000, guid: a62de65c28cf942a5bea7eac8eb117d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange_blinn
+    second: {fileID: 2100000, guid: a502760a2590845a7aeb7b97df9d47c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_phonge
+    second: {fileID: 2100000, guid: 648416b4d61ab4c68b30113324a325ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rope_lam
+    second: {fileID: 2100000, guid: 20f104ae5088143c184d47bfcb4840a3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -395,8 +447,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: rubber_blinn
+    second: {fileID: 2100000, guid: 10b9834a852504e9298ae5934aecdfcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: stern
     second: {fileID: 2100000, guid: 3b93012c5b41c4baf9e71002de60d869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stern_lam
+    second: {fileID: 2100000, guid: 7aedc0707eb2d465d9e3517fe4a64597, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
