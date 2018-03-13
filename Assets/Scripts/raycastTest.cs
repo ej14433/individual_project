@@ -8,7 +8,6 @@ public class raycastTest : MonoBehaviour {
 	float item_size;
 	bool is_open;
 	bool bag_open;
-	public Canvas ui;
 
 	private Animator anim;
 

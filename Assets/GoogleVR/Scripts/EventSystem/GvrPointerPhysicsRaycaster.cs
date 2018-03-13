@@ -24,6 +24,8 @@ using UnityEngine.EventSystems;
 /// View GvrBasePointerRaycaster.cs and GvrPointerInputModule.cs for more details.
 [AddComponentMenu("GoogleVR/GvrPointerPhysicsRaycaster")]
 public class GvrPointerPhysicsRaycaster : GvrBasePointerRaycaster {
+
+  
   /// Used to sort the raycast hits by distance.
   private class HitComparer: IComparer<RaycastHit> {
     public int Compare(RaycastHit lhs, RaycastHit rhs) {
@@ -162,6 +164,26 @@ public class GvrPointerPhysicsRaycaster : GvrBasePointerRaycaster {
 
       resultAppendList.Add(result);
     }
+	
+	bool trigger = GvrControllerInput.ClickButtonDown;
+	Debug.Log (trigger);
+	
+	Animator anim;
+	GameObject item = hits [0].collider.gameObject;
+	if (item.tag == "Bag" && item.GetComponent<State> ().state == 0) {
+		if (trigger) {
+			anim = item.GetComponent<Animator> ();
+			anim.Play ("open_bag");
+			item.GetComponent<State> ().state = 1;
+		} 
+	}	
+	else if (item.tag == "Bag" && item.GetComponent<State> ().state == 1) {
+		if (trigger) {
+			anim = item.GetComponent<Animator> ();
+			anim.Play ("close_bag");
+			item.GetComponent<State> ().state = 0;
+		} 
+	}
 
     return true;
   }
