@@ -100,6 +100,81 @@ ModelImporter:
     100184: pCube16
     100186: pCube17
     100188: pCube18
+    100190: bag1 1
+    100192: bag2 1
+    100194: bag3 1
+    100196: pCube1 1
+    100198: pCube19
+    100200: pCube20
+    100202: pCube21
+    100204: pCube22
+    100206: pCube23
+    100208: pCube24
+    100210: pCube25
+    100212: pCube26
+    100214: pCylinder10
+    100216: pCylinder12
+    100218: pCylinder7
+    100220: pCylinder8
+    100222: polySurface5
+    100224: polySurface5 1
+    100226: polySurface6
+    100228: polySurface6 1
+    100230: polySurface7
+    100232: polySurface7 1
+    100234: polySurface8
+    100236: polySurface8 1
+    100238: polySurface9
+    100240: polySurface9 1
+    100242: transform10
+    100244: transform11
+    100246: transform12
+    100248: transform13
+    100250: transform14
+    100252: transform15
+    100254: transform16
+    100256: transform6
+    100258: transform7
+    100260: transform8
+    100262: transform8 1
+    100264: transform9
+    100266: accessories
+    100268: antenna
+    100270: antenna1
+    100272: fuel
+    100274: fuel1
+    100276: items
+    100278: northstar
+    100280: oar
+    100282: oar2
+    100284: pod_handle
+    100286: pod_hatch
+    100288: pod_hatch_rim
+    100290: pod_rubber
+    100292: pod_rubber1
+    100294: port_side_rubber
+    100296: rope_rail
+    100298: rope_rail1
+    100300: rubber_rail
+    100302: rubber_rail1
+    100304: side_rubber
+    100306: stern1
+    100308: structural
+    100310: vhf1
+    100312: anchor1
+    100314: anchor:pCube5
+    100316: anchor:pCylinder4
+    100318: gloves1
+    100320: gloves:nurbsToPoly2
+    100322: gloves:nurbsToPoly3
+    100324: tow:nurbsToPoly5
+    100326: tow:pCube2
+    100328: tow:pCube3
+    100330: tow_rope
+    100332: handheld:back
+    100334: handheld:handheld
+    100336: handheld1
+    100338: vhf2
     400000: engine
     400002: hull
     400004: //RootNode
@@ -195,6 +270,81 @@ ModelImporter:
     400184: pCube16
     400186: pCube17
     400188: pCube18
+    400190: bag1 1
+    400192: bag2 1
+    400194: bag3 1
+    400196: pCube1 1
+    400198: pCube19
+    400200: pCube20
+    400202: pCube21
+    400204: pCube22
+    400206: pCube23
+    400208: pCube24
+    400210: pCube25
+    400212: pCube26
+    400214: pCylinder10
+    400216: pCylinder12
+    400218: pCylinder7
+    400220: pCylinder8
+    400222: polySurface5
+    400224: polySurface5 1
+    400226: polySurface6
+    400228: polySurface6 1
+    400230: polySurface7
+    400232: polySurface7 1
+    400234: polySurface8
+    400236: polySurface8 1
+    400238: polySurface9
+    400240: polySurface9 1
+    400242: transform10
+    400244: transform11
+    400246: transform12
+    400248: transform13
+    400250: transform14
+    400252: transform15
+    400254: transform16
+    400256: transform6
+    400258: transform7
+    400260: transform8
+    400262: transform8 1
+    400264: transform9
+    400266: accessories
+    400268: antenna
+    400270: antenna1
+    400272: fuel
+    400274: fuel1
+    400276: items
+    400278: northstar
+    400280: oar
+    400282: oar2
+    400284: pod_handle
+    400286: pod_hatch
+    400288: pod_hatch_rim
+    400290: pod_rubber
+    400292: pod_rubber1
+    400294: port_side_rubber
+    400296: rope_rail
+    400298: rope_rail1
+    400300: rubber_rail
+    400302: rubber_rail1
+    400304: side_rubber
+    400306: stern1
+    400308: structural
+    400310: vhf1
+    400312: anchor1
+    400314: anchor:pCube5
+    400316: anchor:pCylinder4
+    400318: gloves1
+    400320: gloves:nurbsToPoly2
+    400322: gloves:nurbsToPoly3
+    400324: tow:nurbsToPoly5
+    400326: tow:pCube2
+    400328: tow:pCube3
+    400330: tow_rope
+    400332: handheld:back
+    400334: handheld:handheld
+    400336: handheld1
+    400338: vhf2
     2300000: engine
     2300002: hull
     2300004: pod
@@ -244,6 +394,43 @@ ModelImporter:
     2300092: pCube16
     2300094: pCube17
     2300096: pCube18
+    2300098: pCube26
+    2300100: polySurface5
+    2300102: polySurface5 1
+    2300104: polySurface6
+    2300106: polySurface6 1
+    2300108: polySurface7
+    2300110: polySurface7 1
+    2300112: polySurface8
+    2300114: polySurface8 1
+    2300116: polySurface9
+    2300118: polySurface9 1
+    2300120: antenna
+    2300122: antenna1
+    2300124: northstar
+    2300126: pod_handle
+    2300128: pod_hatch
+    2300130: pod_hatch_rim
+    2300132: pod_rubber
+    2300134: pod_rubber1
+    2300136: port_side_rubber
+    2300138: rope_rail
+    2300140: rope_rail1
+    2300142: rubber_rail
+    2300144: rubber_rail1
+    2300146: side_rubber
+    2300148: stern1
+    2300150: vhf1
+    2300152: anchor:pCube5
+    2300154: anchor:pCylinder4
+    2300156: gloves:nurbsToPoly2
+    2300158: gloves:nurbsToPoly3
+    2300160: tow:nurbsToPoly5
+    2300162: tow:pCube2
+    2300164: tow:pCube3
+    2300166: handheld:handheld
+    2300168: handheld1
+    2300170: vhf2
     3300000: engine
     3300002: hull
     3300004: pod
@@ -293,6 +480,43 @@ ModelImporter:
     3300092: pCube16
     3300094: pCube17
     3300096: pCube18
+    3300098: pCube26
+    3300100: polySurface5
+    3300102: polySurface5 1
+    3300104: polySurface6
+    3300106: polySurface6 1
+    3300108: polySurface7
+    3300110: polySurface7 1
+    3300112: polySurface8
+    3300114: polySurface8 1
+    3300116: polySurface9
+    3300118: polySurface9 1
+    3300120: antenna
+    3300122: antenna1
+    3300124: northstar
+    3300126: pod_handle
+    3300128: pod_hatch
+    3300130: pod_hatch_rim
+    3300132: pod_rubber
+    3300134: pod_rubber1
+    3300136: port_side_rubber
+    3300138: rope_rail
+    3300140: rope_rail1
+    3300142: rubber_rail
+    3300144: rubber_rail1
+    3300146: side_rubber
+    3300148: stern1
+    3300150: vhf1
+    3300152: anchor:pCube5
+    3300154: anchor:pCylinder4
+    3300156: gloves:nurbsToPoly2
+    3300158: gloves:nurbsToPoly3
+    3300160: tow:nurbsToPoly5
+    3300162: tow:pCube2
+    3300164: tow:pCube3
+    3300166: handheld:handheld
+    3300168: handheld1
+    3300170: vhf2
     4300000: sponsons
     4300002: pod
     4300004: engine
@@ -342,6 +566,44 @@ ModelImporter:
     4300092: pCube16
     4300094: pCube17
     4300096: pCube18
+    4300098: polySurface5
+    4300100: polySurface6
+    4300102: polySurface7
+    4300104: polySurface8
+    4300106: polySurface9
+    4300108: polySurface5
+    4300110: polySurface6
+    4300112: polySurface7
+    4300114: polySurface8
+    4300116: polySurface9
+    4300118: pCube26
+    4300120: side_rubber
+    4300122: port_side_rubber
+    4300124: pod_hatch_rim
+    4300126: pod_handle
+    4300128: pod_rubber1
+    4300130: pod_rubber
+    4300132: northstar
+    4300134: rubber_rail1
+    4300136: rubber_rail
+    4300138: rope_rail
+    4300140: rope_rail1
+    4300142: antenna
+    4300144: antenna1
+    4300146: pod_hatch
+    4300148: stern1
+    4300150: vhf1
+    4300152: tow:pCube3
+    4300154: tow:nurbsToPoly5
+    4300156: tow:pCube2
+    4300158: gloves:nurbsToPoly2
+    4300160: gloves:nurbsToPoly3
+    4300162: anchor:pCylinder4
+    4300164: anchor:pCube5
+    4300166: handheld:handheld
+    4300168: vhf2
+    4300170: handheld1
+    7400000: Take 001
     9500000: //RootNode
   externalObjects:
   - first:
@@ -354,6 +616,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: black_plastic_phonge
     second: {fileID: 2100000, guid: a2a0a099bafb14b74868af3ecbf775ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn4
+    second: {fileID: 2100000, guid: 98095710b405f4f0a9ace1f86cb94f5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn5
+    second: {fileID: 2100000, guid: 9c36266904a01417984be9e594541d43, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -389,6 +661,41 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: fuel_tank_fuel_metal
     second: {fileID: 2100000, guid: 38663891b9a194f6cac0d8ced28d9b98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gloves_blinn1
+    second: {fileID: 2100000, guid: ac80d44cb5c9d43c2b7e016834ad7f4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handheld_blinn1
+    second: {fileID: 2100000, guid: f56ccea8dc4af48e48ba0328f16b649f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handheld_blinn3
+    second: {fileID: 2100000, guid: ae4a010f8ad024f2c9ef1de4be5ca10d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handheld_blinn4
+    second: {fileID: 2100000, guid: bbfe2708a11d84a11b301054dd889e7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handheld_lambert2
+    second: {fileID: 2100000, guid: 711fa3d52f3d047a1b8ff6ded6ecc5c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handheld_lambert3
+    second: {fileID: 2100000, guid: 29f279ccebae94085a190f9527b8d16f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handheld_phong1
+    second: {fileID: 2100000, guid: 2d70cac6d63994c0fa949a49e172b03b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -459,6 +766,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: stern_lam
     second: {fileID: 2100000, guid: 7aedc0707eb2d465d9e3517fe4a64597, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tow_blinn1
+    second: {fileID: 2100000, guid: 40cb953074a1344589c6d070d6669c77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tow_metal
+    second: {fileID: 2100000, guid: 0c1ec2f8dd54c4ad1abbbaed71a43f64, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
