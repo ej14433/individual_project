@@ -206,6 +206,12 @@ ModelImporter:
     100396: transform19
     100398: transform20
     100400: transform21
+    100402: handle1
+    100404: handle2
+    100406: handle3
+    100408: handle4
+    100410: strap_handle
+    100412: light_hatch
     400000: engine
     400002: hull
     400004: //RootNode
@@ -407,6 +413,12 @@ ModelImporter:
     400396: transform19
     400398: transform20
     400400: transform21
+    400402: handle1
+    400404: handle2
+    400406: handle3
+    400408: handle4
+    400410: strap_handle
+    400412: light_hatch
     2300000: engine
     2300002: hull
     2300004: pod
@@ -506,6 +518,12 @@ ModelImporter:
     2300192: polySurface10
     2300194: pTorus4
     2300196: pTorus5
+    2300198: handle1
+    2300200: handle2
+    2300202: handle3
+    2300204: handle4
+    2300206: strap_handle
+    2300208: light_hatch
     3300000: engine
     3300002: hull
     3300004: pod
@@ -605,6 +623,12 @@ ModelImporter:
     3300192: polySurface10
     3300194: pTorus4
     3300196: pTorus5
+    3300198: handle1
+    3300200: handle2
+    3300202: handle3
+    3300204: handle4
+    3300206: strap_handle
+    3300208: light_hatch
     4300000: sponsons
     4300002: pod
     4300004: engine
@@ -704,6 +728,12 @@ ModelImporter:
     4300192: pCylinder13
     4300194: pCylinder14
     4300196: pCylinder17
+    4300198: handle1
+    4300200: handle2
+    4300202: handle3
+    4300204: handle4
+    4300206: strap_handle
+    4300208: light_hatch
     7400000: Take 001
     9500000: //RootNode
   externalObjects:

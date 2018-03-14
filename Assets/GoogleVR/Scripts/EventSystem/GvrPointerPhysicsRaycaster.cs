@@ -166,8 +166,6 @@ public class GvrPointerPhysicsRaycaster : GvrBasePointerRaycaster {
     }
 	
 	bool trigger = GvrControllerInput.ClickButtonDown;
-	Debug.Log (trigger);
-	
 	Animator anim;
 	GameObject item = hits [0].collider.gameObject;
 	if (item.tag == "Bag" && item.GetComponent<State> ().state == 0) {
