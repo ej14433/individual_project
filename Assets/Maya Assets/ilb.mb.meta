@@ -187,6 +187,25 @@ ModelImporter:
     100358: first_aid2
     100360: light2
     100362: pod2
+    100364: pCylinder11
+    100366: pCylinder13
+    100368: pCylinder14
+    100370: pCylinder15
+    100372: pCylinder16
+    100374: pCylinder17
+    100376: polySurface10
+    100378: polySurface11
+    100380: pTorus1
+    100382: pTorus2
+    100384: pTorus3
+    100386: pTorus4
+    100388: pTorus5
+    100390: pTorus6
+    100392: transform17
+    100394: transform18
+    100396: transform19
+    100398: transform20
+    100400: transform21
     400000: engine
     400002: hull
     400004: //RootNode
@@ -369,6 +388,25 @@ ModelImporter:
     400358: first_aid2
     400360: light2
     400362: pod2
+    400364: pCylinder11
+    400366: pCylinder13
+    400368: pCylinder14
+    400370: pCylinder15
+    400372: pCylinder16
+    400374: pCylinder17
+    400376: polySurface10
+    400378: polySurface11
+    400380: pTorus1
+    400382: pTorus2
+    400384: pTorus3
+    400386: pTorus4
+    400388: pTorus5
+    400390: pTorus6
+    400392: transform17
+    400394: transform18
+    400396: transform19
+    400398: transform20
+    400400: transform21
     2300000: engine
     2300002: hull
     2300004: pod
@@ -462,6 +500,12 @@ ModelImporter:
     2300180: compass_holder
     2300182: first_aid2
     2300184: light2
+    2300186: pCylinder13
+    2300188: pCylinder14
+    2300190: pCylinder17
+    2300192: polySurface10
+    2300194: pTorus4
+    2300196: pTorus5
     3300000: engine
     3300002: hull
     3300004: pod
@@ -555,6 +599,12 @@ ModelImporter:
     3300180: compass_holder
     3300182: first_aid2
     3300184: light2
+    3300186: pCylinder13
+    3300188: pCylinder14
+    3300190: pCylinder17
+    3300192: polySurface10
+    3300194: pTorus4
+    3300196: pTorus5
     4300000: sponsons
     4300002: pod
     4300004: engine
@@ -648,6 +698,12 @@ ModelImporter:
     4300180: compass_holder
     4300182: first_aid2
     4300184: light2
+    4300186: pTorus4
+    4300188: pTorus5
+    4300190: polySurface10
+    4300192: pCylinder13
+    4300194: pCylinder14
+    4300196: pCylinder17
     7400000: Take 001
     9500000: //RootNode
   externalObjects:
@@ -791,6 +847,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: lambert1
     second: {fileID: 2100000, guid: bd2b7f182395244f9981196e2a394f71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert10
+    second: {fileID: 2100000, guid: 10f78cdc5cbbd4e81a826db35af29111, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
