@@ -175,6 +175,18 @@ ModelImporter:
     100334: handheld:handheld
     100336: handheld1
     100338: vhf2
+    100340: compass:compass
+    100342: compass:left
+    100344: first_aid1:first_aid
+    100346: first_aid:transform1
+    100348: first_aid:transform2
+    100350: first_aid:transform3
+    100352: light1:light
+    100354: pod 1
+    100356: compass_holder
+    100358: first_aid2
+    100360: light2
+    100362: pod2
     400000: engine
     400002: hull
     400004: //RootNode
@@ -345,6 +357,18 @@ ModelImporter:
     400334: handheld:handheld
     400336: handheld1
     400338: vhf2
+    400340: compass:compass
+    400342: compass:left
+    400344: first_aid1:first_aid
+    400346: first_aid:transform1
+    400348: first_aid:transform2
+    400350: first_aid:transform3
+    400352: light1:light
+    400354: pod 1
+    400356: compass_holder
+    400358: first_aid2
+    400360: light2
+    400362: pod2
     2300000: engine
     2300002: hull
     2300004: pod
@@ -431,6 +455,13 @@ ModelImporter:
     2300166: handheld:handheld
     2300168: handheld1
     2300170: vhf2
+    2300172: compass:compass
+    2300174: first_aid1:first_aid
+    2300176: light1:light
+    2300178: pCylinder12
+    2300180: compass_holder
+    2300182: first_aid2
+    2300184: light2
     3300000: engine
     3300002: hull
     3300004: pod
@@ -517,6 +548,13 @@ ModelImporter:
     3300166: handheld:handheld
     3300168: handheld1
     3300170: vhf2
+    3300172: compass:compass
+    3300174: first_aid1:first_aid
+    3300176: light1:light
+    3300178: pCylinder12
+    3300180: compass_holder
+    3300182: first_aid2
+    3300184: light2
     4300000: sponsons
     4300002: pod
     4300004: engine
@@ -603,6 +641,13 @@ ModelImporter:
     4300166: handheld:handheld
     4300168: vhf2
     4300170: handheld1
+    4300172: compass:compass
+    4300174: pCylinder12
+    4300176: first_aid1:first_aid
+    4300178: light1:light
+    4300180: compass_holder
+    4300182: first_aid2
+    4300184: light2
     7400000: Take 001
     9500000: //RootNode
   externalObjects:
@@ -629,6 +674,26 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: compass_blinn1
+    second: {fileID: 2100000, guid: 5b0c3b25cd5384aefad535f974585842, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: compass_blinn2
+    second: {fileID: 2100000, guid: 8293ded1678e54aa28df1f56afa46c6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: compass_blinn3
+    second: {fileID: 2100000, guid: 582f1d08537f1463ab7c316e2f96e137, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: compass_blinn4
+    second: {fileID: 2100000, guid: 5a778d8e89d12499cae0609676442306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: engine2_black_metal1
     second: {fileID: 2100000, guid: 18db524b1e74c4534a64c7ed93356413, type: 2}
   - first:
@@ -651,6 +716,31 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: engine_lid_phong
     second: {fileID: 2100000, guid: 58a8d9ff38a7c4783a44694a832f3921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: first_aid1_phong1
+    second: {fileID: 2100000, guid: 0e60e1bf888ab44b89c90b1693856465, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: first_aid1_phong2
+    second: {fileID: 2100000, guid: 8273600acd9e4430cb6fba34f6d5b9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: first_aid1_svgBlinn1
+    second: {fileID: 2100000, guid: f35e8004c90aa4863b433141cff11f29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: first_aid1_typeBlinn
+    second: {fileID: 2100000, guid: 14a437ba31c1541b99a3f603faab4238, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: first_aid1_typeBlinn1
+    second: {fileID: 2100000, guid: 22f7f3678083946fab1f6ad363bab0f9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -729,6 +819,21 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: light1_blinn1
+    second: {fileID: 2100000, guid: 54071c0dcc68947eb9d230c0fdbd2614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light1_blinn2
+    second: {fileID: 2100000, guid: 3ef608127572845d8849c5aeaba86031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light1_phong1
+    second: {fileID: 2100000, guid: 5a165dd06e264472d9ad6f1271705c3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: orange
     second: {fileID: 2100000, guid: a62de65c28cf942a5bea7eac8eb117d2, type: 2}
   - first:
@@ -736,6 +841,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: orange_blinn
     second: {fileID: 2100000, guid: a502760a2590845a7aeb7b97df9d47c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: 9e39b40af5c934efe9579b25ab91d238, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
